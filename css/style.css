@@ -17,4 +17,10 @@ nav {
 .flex-container {
   justify-content: center;
   display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h4 {
+    font-size: 4rem;
 }
