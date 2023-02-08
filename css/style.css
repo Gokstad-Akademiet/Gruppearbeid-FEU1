@@ -41,3 +41,11 @@ h4:hover {
 #clock {
     position: absolute;
 }
+
+.stadion-img {
+  border-radius: 25px;
+  background: #03588c;
+  padding: 12px;
+  width: 500px;
+  height: 200px;
+}
