@@ -28,6 +28,7 @@ h4 {
   background-color: #f2f2f2;
   border: 1px solid darkslategray;
   border-radius: 16px;
+  margin-top: 20px;
 }
 
 body {
@@ -46,4 +47,9 @@ h4:hover {
     object-fit: cover;
     max-height: 400px;
     max-width: 100%;
+  border-radius: 25px;
+  background: #03588c;
+  padding: 12px;
+  width: 500px;
+  height: 200px;
 }
