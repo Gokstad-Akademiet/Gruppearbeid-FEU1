@@ -1,0 +1,24 @@
+.history-container {
+  display: grid;
+  border-style: solid;
+  border-color: #005696;
+  border-width: 3px;
+  margin: 40px 30px;
+  padding: 20px;
+}
+
+.history-header {
+  display: grid;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  align-items: center;
+  color: #005696;
+}
+
+p {
+  color: #005696;
+  margin-top: 0;
+}
