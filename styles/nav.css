@@ -1,6 +1,9 @@
 nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   padding: 10px;
   background-color: #005696;
@@ -8,7 +11,8 @@ nav {
 }
 
 .hamburger {
-  font-size: 24px;
+  margin-right: 10%;
+  font-size: 2rem;
   background-color: transparent;
   border: none;
   color: #fff;
@@ -21,8 +25,8 @@ nav {
 .dropdown {
     display: block;
     position: absolute;
-    bottom:  25px;
-    left: 1vw;
+    bottom: 65px;
+    right: 35px;
     background-color: #fff;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
