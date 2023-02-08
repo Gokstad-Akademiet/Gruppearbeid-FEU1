@@ -1,7 +1,8 @@
 const hamburgerBtn = document.querySelector('#hamburgerBtn');
-const dropdown = document.querySelector('.dropdown');
+const dropdown = document.querySelector('#dropdownMenu');
 
 
 hamburgerBtn.addEventListener('click', function() {
-  dropdown.classList.toggle('.hide');
+  dropdown.classList.toggle('dropdown');
+  dropdown.classList.toggle('hide');
 });

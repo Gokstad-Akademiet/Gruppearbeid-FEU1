@@ -14,7 +14,10 @@ nav {
   color: #fff;
   cursor: pointer;
 }
-
+.hide {
+    display: none;
+  }
+  
 .dropdown {
     display: block;
     position: absolute;
@@ -36,6 +39,4 @@ nav {
     background-color: #ddd;
 }
 
-.hide {
-  display: none;
-}
+
