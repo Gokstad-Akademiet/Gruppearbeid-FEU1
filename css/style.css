@@ -37,3 +37,7 @@ body {
 h4:hover {
   color: #03588c;
 }
+
+#clock {
+    position: absolute;
+}
