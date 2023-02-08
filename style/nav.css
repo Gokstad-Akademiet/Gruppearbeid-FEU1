@@ -17,12 +17,12 @@ nav {
 .hide {
     display: none;
   }
-  
+
 .dropdown {
     display: block;
     position: absolute;
-    top: 60px;
-    left: 10px;
+    bottom:  25px;
+    left: 1vw;
     background-color: #fff;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
