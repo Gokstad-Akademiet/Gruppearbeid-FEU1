@@ -8,12 +8,16 @@ nav {
   display: flex;
   justify-content: center;
   background-color: lightgray;
-  
+  margin: 5px;
+  padding: 18px;
+  height: 70px;
+  width: 100%;
 }
 
 .logo-img {
   width: 100px;
   padding: 10px;
+  height: 70px;
 }
 
 .flex-container {
@@ -42,13 +46,13 @@ h4:hover {
 }
 
 #clock {
-    position: absolute;
+  position: absolute;
 }
 
 .stadion-img {
-    object-fit: cover;
-    max-height: 400px;
-    max-width: 100%;
+  object-fit: cover;
+  max-height: 400px;
+  max-width: 100%;
   border-radius: 25px;
   background: #03588c;
   padding: 12px;
