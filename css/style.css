@@ -13,3 +13,8 @@ nav {
     width: 100px;
     padding: 10px;
 }
+
+.flex-container {
+  justify-content: center;
+  display: flex;
+}
