@@ -1,3 +1,7 @@
+const playePicture = document.querySelector(".player-picture");
+playePicture.innerHTML = `<img src =
+  "http://api.lorem.space/image/face?w=170&h=200">`;
+
 const players = [
   { name: "Hugo Oliver Keto", bilde: "", spillernummer: "1" },
 
@@ -8,6 +12,6 @@ const players = [
   { name: "Jesper Taaje", bilde: "", spillernummer: "15" },
 
   { name: "Sander Risan Mørk", bilde: "", spillernummer: "6" },
-  
+
   { name: "Youssef Chaib", bilde: "", spillernummer: "11" },
 ];
