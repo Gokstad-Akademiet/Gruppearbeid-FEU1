@@ -1,0 +1,31 @@
+
+
+ul {
+    background-color: rgb(2, 93, 184);
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 8px;
+    height: 30px;
+    list-style-type: none;
+  
+}
+
+* {
+    text-decoration: none;
+}
+
+.players-container {
+    border: 1px solid #ccc;
+    width: 120px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(2, 93, 184) ;
+    box-shadow: 12px;
+    padding: 12px;
+  }
+  
+  h3 {
+    color: white;
+  }
