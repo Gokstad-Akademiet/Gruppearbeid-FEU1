@@ -59,4 +59,4 @@ const myobjArray = [
   Posisjon: "Forsvarspiller",
   jerseyNumber: 15,
 }, 
-] 
+];
