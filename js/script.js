@@ -40,23 +40,23 @@ const myobjArray = [
   {
     name: "Quint Arie Jansen",
     Posisjon: "Forsvarspiller",
-    jersyNumber: 3,
+    jerseyNumber: 3,
 
   },
   {
     name: "lan Smeulers",
     Posisjon: "Forsvarspiller",
-    jersyNumber: 4,
+    jerseyNumber: 4,
 
   },
  {
   name: "Lara Markmanrud",
   Posisjon: "Forsvarspiller",
-  jersyNumber: 13,
+  jerseyNumber: 13,
  },
 {
   name: "Jesper Taaje",
   Posisjon: "Forsvarspiller",
-  jersyNumber: 15,
+  jerseyNumber: 15,
 }, 
 ] 
