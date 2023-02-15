@@ -38,6 +38,7 @@ li {
 h1 {
   color: white;
   margin-top: 10px;
+  font-size: 2rem;
 }
 
 p {
@@ -46,8 +47,18 @@ p {
 
 .player-gender {
   font-size: 1.5rem;
+  font-weight: 550;
 }
 
 .player-number {
   font-size: 1.5rem;
+  font-weight: 550;
+}
+
+#playerGender {
+  font-size: 1.2rem;
+}
+
+#playerNumber {
+  font-size: 1.2rem;
 }
