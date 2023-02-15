@@ -24,8 +24,13 @@ ul {
     background-color: rgb(2, 93, 184) ;
     box-shadow: 12px;
     padding: 12px;
+    border-radius: 8px;
   }
   
   h3 {
     color: white;
+  }
+
+  h1 {
+    font-size: 20px;
   }
