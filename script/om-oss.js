@@ -8,6 +8,6 @@ const players = [
   { name: "Jesper Taaje", bilde: "", spillernummer: "15" },
 
   { name: "Sander Risan Mørk", bilde: "", spillernummer: "6" },
-  
-  { name: "Youssef Chaib", bilde: "", spillernummer: "11" },
+
+  { name: "Youssef Chaib", bilde: "", spillernummer: "11" }
 ];
