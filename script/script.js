@@ -3,78 +3,78 @@ const players = [
     name: "Lars Larsen",
     character: "Lars Bandasj",
     playernumber: 14,
-    image: "../Assets/imagem1.png",
+    image: "",
   },
   {
     name: "Kjell Kjellsen",
     character: "Kjell Propell",
     playernumber: 10,
-    image: "../Assets/imagem2.png",
+    image: "",
   },
   {
     name: "Anna Andersson",
     character: "Anna Ballerina",
     playernumber: 8,
-    image: "../Assets/imagef5.png",
+    image: "",
   },
   {
     name: "Ola Olsen",
     character: "Ola Dunk",
     playernumber: 23,
-    image: "../Assets/imagem3.png",
+    image: "",
   },
   {
     name: "Ida Idassen",
     character: "Ida Måke",
     playernumber: 17,
-    image: "../Assets/imagef1.png",
+    image: "",
   },
   {
     name: "Per Persen",
     character: "Per Rakett",
     playernumber: 7,
-    image: "../Assets/imagem4.png",
+    image: "",
   },
   {
     name: "Maja Majassen",
     character: "Maja Hopp",
     playernumber: 11,
-    image: "../Assets/imagef2.png",
+    image: "",
   },
   {
     name: "Anders Andersen",
     character: "Anders Rask",
     playernumber: 2,
-    image: "../Assets/imagem5.png",
+    image: "",
   },
   {
     name: "Sara Svensson",
     character: "Sara Snurr",
     playernumber: 21,
-    image: "../Assets/imagef3.png",
+    image: "",
   },
   {
     name: "Erik Eriksen",
     character: "Erik Slalom",
     playernumber: 18,
-    image: "../Assets/imagem6.png",
+    image: "",
   },
   {
     name: "Ingrid Ingesson",
     character: "Ingrid Sprint",
     playernumber: 3,
-    image: "../Assets/imagef4.png",
+    image: "",
   },
 ];
 
-for (let i = 0; i < players.length; i++) {
-    document.getElementById("playersContainer").innerHTML += `<div id="playerCards">
-    <h2>${players[i].name}</h2>
-    <h3>${players[i].character}</h3>
-    <p>${players[i].playernumber}</p>
-    <img src="${players[i].image}">
+players.forEach(player => {
+document.getElementById("playersContainer").innerHTML += 
+    `<div class="playerCard" id="playerCard">
+    <h2>${player.name}</h2>
+    <h3>${player.character}</h3>
+    <p>${player.playernumber}</p>
+    <img src="${player.image}">
     </div>`;
-    console.log(players[i].name);
-    console.log(players[i].playernumber);
-    console.log(players[i].image);
-    }
+   
+    
+});

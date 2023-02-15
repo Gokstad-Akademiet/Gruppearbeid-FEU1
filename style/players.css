@@ -15,10 +15,11 @@ ul {
     text-decoration: none;
 }
 
-.players-container {
+.playersContainer {
+  display: flex;
+  flex-wrap: wrap;
+
     border: 1px solid #ccc;
-    width: 120px;
-    height: 200px;
     margin: 10px;
     text-align: center;
     background-color: rgb(2, 93, 184) ;
@@ -33,4 +34,14 @@ ul {
 
   h1 {
     font-size: 20px;
+  }
+  .playerCard{
+    margin: 2%;
+    background-color: lightblue;
+    width: 20%;
+    border-radius: 20px;
+  }
+  .playerCard img{
+    width: 100%;
+    border-radius: 20px;
   }
